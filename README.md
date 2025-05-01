@@ -6,7 +6,7 @@ This repository contains the **source code for my personal portfolio website**, 
 > 🛠️ This code was **generated using the Lovable application** and deployed using **Vercel**.
 
 ### 🔗 Live Demo  
-🌐 [Visit Portfolio](https://sorting-visualizer-kgz8.onrender.com)
+🌐 [Visit Portfolio](https://portfoliowebsite-q2lx2zvaq-jaya-krishna-sri-bhogadis-projects.vercel.app/)
 
 ---
 

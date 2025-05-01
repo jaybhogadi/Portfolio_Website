@@ -79,6 +79,16 @@ npm run dev
 
 ## 🌍 Deployment
 
+## 🌍 Deployment
+
+```bash
+#1.Initailizing
+npm i -g vercel
+
+#2.Deploying
+vercel
+```
+
 This portfolio website is deployed using **Vercel**, ensuring fast, global delivery with zero-config continuous deployment.
 
 ---

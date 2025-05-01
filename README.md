@@ -1,73 +1,88 @@
-# Welcome to your Lovable project
 
-## Project info
+# 👨‍💻 Jaya Krishna Sri — Portfolio Website
 
-**URL**: https://lovable.dev/projects/9a20466c-a093-4174-a70f-ff265cb0178f
+This repository contains the **source code for my personal portfolio website**, created to highlight my technical expertise, projects, and career journey as a **Generative AI Engineer**.
 
-## How can I edit this code?
+> 🛠️ This code was **generated using the Lovable application** and deployed using **Vercel**.
 
-There are several ways of editing your application.
+### 🔗 Live Demo  
+🌐 [Visit Portfolio](https://sorting-visualizer-kgz8.onrender.com)
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/9a20466c-a093-4174-a70f-ff265cb0178f) and start prompting.
+## 📁 Website Sections
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Home** – Introduction and quick overview  
+- **Skills** – Technologies and tools I’m proficient in  
+- **Work** – Highlights of projects and accomplishments  
+- **Experience** – Summary of my professional journey  
+- **Information** – Contact info and background  
+- **Resume** – Downloadable or viewable resume  
+- **Portfolio** – My curated set of works  
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🙋‍♂️ About Me
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+**Hello, I'm Jaya Krishna Sri**  
+A passionate and creative **Generative AI Engineer** with hands-on experience in developing intelligent applications and tools. I specialize in:
 
-Follow these steps:
+- Building LLM-powered solutions with LangGraph and LangChain  
+- Designing Retrieval-Augmented Generation (RAG) pipelines  
+- Developing fast, scalable APIs using FastAPI  
+- Creating elegant frontends using React + Vite  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+I'm driven by the desire to make AI approachable and impactful in real-world use cases.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## ⚙️ Tech Stack Used
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+- ⚛️ **React** (built with Vite)  
+- 🎨 **Tailwind CSS** (utility-first CSS framework)  
+- 🧩 **Lovable** (for generating the project structure and components)  
+- 🚀 **Vercel** (for hosting and deployment)  
+
+---
+
+## 🛠️ Local Development Setup
+
+```bash
+# 1. Create a Vite-powered React project
+npm create vite@latest my-portfolio -- --template react
+cd my-portfolio
+
+# 2. Install dependencies
+npm install
+
+# 3. Add Tailwind CSS
+npm install -D tailwindcss @tailwindcss/vite
+
+# 4. Configure Tailwind + Vite in vite.config.js
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import tailwind from "@tailwindcss/vite";
+
+export default defineConfig({
+  plugins: [react(), tailwind()],
+});
+
+# 5. Setup Tailwind in your CSS
+@import "tailwindcss";
+html { scroll-behavior: smooth; }
+
+# 6. Run your dev server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🌍 Deployment
 
-**Use GitHub Codespaces**
+This portfolio website is deployed using **Vercel**, ensuring fast, global delivery with zero-config continuous deployment.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 📌 Purpose
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/9a20466c-a093-4174-a70f-ff265cb0178f) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This portfolio serves as a dynamic representation of my professional identity and technical capabilities. It’s designed not only to showcase my work but also to demonstrate real-world application of frontend technologies and deployment strategies.
